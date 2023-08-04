@@ -47,12 +47,17 @@ expo start
 This will start the Expo development server and show a QR code in the terminal. You can run the app on your physical device by scanning this QR code using the Expo Go app. Alternatively, you can run the app on an iOS/Android emulator.
 
 ## Features
-
-- View real-time stock prices and information.
-- Add and track multiple stocks at once.
-- Create a portfolio of stocks you are interested in.
-- Easy-to-use and intuitive user interface.
-- Automatic data refresh at regular intervals.
+View real-time stock prices and information.
+Add and track multiple stocks at once.
+From the Home Screen, click on each stock to check the details.
+Stock Detail Screen allows you to filter data with predefined filters: 3d, 7d, 30d, all.
+Switch between line chart and candlestick chart in the Stock Detail Screen.
+Use a custom date range by clicking the button in the Stock Detail Screen.
+Click the star icon in the Stock Detail Screen to add the stock to your watchlist.
+Portfolio Screen with an autocomplete text bar for searching and adding stocks to your portfolio.
+After adding stocks to the portfolio, get updated data on the total cost of all the stocks.
+Swipe right in the Portfolio Screen to delete a stock from the portfolio.
+Watchlist Screen displays a list of watchlisted stocks, and you can click on them to see their details.
 
 ## Folder Structure
 
